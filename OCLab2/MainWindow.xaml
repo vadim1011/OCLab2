@@ -5,6 +5,9 @@
         Title="OCLab2 - Parallel.ForEach Факториалы" 
         Height="600" Width="800"
         WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
 
     <Grid Margin="15">
         <Grid.RowDefinitions>
